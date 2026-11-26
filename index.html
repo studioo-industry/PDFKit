@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDFKit - All-in-One Online PDF, Image & Govt Document Tools</title>
+    <meta name="description" content="All-in-one browser PDF, Image, and Govt Document suite to merge, compress, convert PDF/Word, crop, enhance, remove background, and create official Passport & ID photos securely." />
+    <meta property="og:title" content="PDFKit - All-in-One Online PDF, Image & Govt Document Tools" />
+    <meta property="og:description" content="All-in-one browser PDF, Image, and Govt Document suite to merge, compress, convert PDF/Word, crop, enhance, remove background, and create official Passport & ID photos securely." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="google-site-verification" content="_dILNzG8CNZlrcSq9wnFOYQ_aespliINURblhiH6urA" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      // Filter benign Vite development websocket connection notices in container proxy environments
+      window.addEventListener('error', function (e) {
+        if (e && e.message && (e.message.includes('WebSocket closed without opened') || e.message.includes('failed to connect to websocket'))) {
+          e.preventDefault();
+          e.stopImmediatePropagation();
+        }
+      }, true);
+      window.addEventListener('unhandledrejection', function (e) {
+        if (e && e.reason && (e.reason.message || String(e.reason)).includes('WebSocket closed without opened')) {
+          e.preventDefault();
+          e.stopImmediatePropagation();
+        }
+      }, true);
+      (function() {
+        const _origErr = console.error;
+        console.error = function(...args) {
+          const msg = args[0] ? String(args[0]) : '';
+          if (msg.includes('[vite] failed to connect to websocket') || msg.includes('WebSocket closed without opened')) {
+            return;
+          }
+          _origErr.apply(console, args);
+        };
+      })();
+    </script>
+  </head>
+  <body class="bg-[#F8Fafd] text-[#1f1f1f] antialiased selection:bg-[#c2e7ff] selection:text-[#001d35]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

@@ -1,0 +1,6 @@
+{
+  "name": "PDFKit",
+  "description": "All-in-one browser PDF, Image, and Govt Document suite to merge, compress, convert PDF/Word, crop, enhance, remove background, and create official Passport & ID photos securely.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

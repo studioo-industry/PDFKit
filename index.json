@@ -1,0 +1,18 @@
+[
+  {
+    "id": "doc_9nixukjw",
+    "title": "Test Document",
+    "filename": "test.pdf",
+    "mimeType": "application/pdf",
+    "fileSize": 18,
+    "toolId": "merge",
+    "createdAt": "2026-09-14T13:31:35.344Z",
+    "updatedAt": "2026-09-14T13:31:35.344Z",
+    "editToken": "edt_55cf5b2704a85fa62c564119e28de704",
+    "toolState": null,
+    "stats": {
+      "views": 1,
+      "downloads": 0
+    }
+  }
+]

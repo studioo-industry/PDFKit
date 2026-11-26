@@ -1,0 +1,24 @@
+[
+  {
+    "id": "usr_5e6c80df0776c3eb",
+    "email": "test@example.com",
+    "name": "Test User",
+    "passwordHash": "31f8254d20c8b7c57a5a0bfba5b1022ac2bf57abc7a7385e35986bcb303e3c612cfddb8398b066d9aa5b1318576c529def339cf14649c97dd35777ccaf2a7788",
+    "salt": "c2121cc6cbf33c2af1cf349461ca3030",
+    "provider": "email",
+    "hasPassword": true,
+    "createdAt": "2026-09-09T10:08:06.806Z",
+    "lastLoginAt": "2026-09-14T13:09:26.094Z"
+  },
+  {
+    "id": "usr_b18dfc0473232cf6",
+    "email": "googleuser@gmail.com",
+    "name": "Google User",
+    "provider": "google",
+    "hasPassword": true,
+    "createdAt": "2026-09-09T10:08:06.825Z",
+    "lastLoginAt": "2026-09-09T10:08:06.825Z",
+    "passwordHash": "ed80c23facf6182a856a7b2beeeaed61d52adbe29bca94e10d9a07664cf7ac5cf8dc72bb5c325aa8fdae1979eca85b3676aa1d5fb458aad2a11ab9b046e3fef1",
+    "salt": "8b8d87a62891a57690eca70cb752d3e2"
+  }
+]
